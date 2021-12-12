@@ -1,7 +1,9 @@
 <template>
-  <div id="nav">
+  <div id="nav" class="nav-bar">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/resume">Resume</router-link> |
+    <router-link to="/hobbies">Hobbies</router-link> |
+    <router-link to="/contact">Contact Me</router-link>
   </div>
   <router-view />
 </template>
@@ -26,5 +28,30 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.nav-bar {
+  background: #c7e8ed;
+  margin: 0 auto;
+  display: block;
+}
+.header-wrap {
+  width: 25em;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+header {
+  background: #2F3061;
+  color: #F7FFF7;
+}
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+  text-align: center;
+}
+h3 {
+  padding: 1rem;
+  margin: 0.5rem 0.5rem -2rem;
+  text-align: left;
 }
 </style>
