@@ -130,23 +130,6 @@
   <footer>
     <section class="footer-section">
       <br />
-      <picture>
-        <source
-          media="(min-width:600px)"
-          srcset="
-            ../assets/testcase-development_480.jpg   480w,
-            ../assets/testcase-development_960.jpg   960w,
-            ../assets/testcase-development_1215.jpg 1215w
-          "
-          sizes="(max-width: 480px) 240px,
-                                    (max-width: 960px) 480px,
-                                    (max-width: 1225px) 960px"
-        />
-        <img
-          src="../assets/testcase-development_1215.jpg"
-          alt="Testing Life Cicle"
-        />
-      </picture>
       <h5><cite>Quality is not an act, it is a habbit. -Aristotle</cite></h5>
     </section>
   </footer>

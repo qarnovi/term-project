@@ -41,8 +41,8 @@
   padding: 60px 0;
 }
 header {
-  background: #2F3061;
-  color: #F7FFF7;
+  background: #2f3061;
+  color: #f7fff7;
 }
 h1,
 h2 {
@@ -53,5 +53,13 @@ h3 {
   padding: 1rem;
   margin: 0.5rem 0.5rem -2rem;
   text-align: left;
+}
+picture {
+  display: inline-block;
+  margin-top: 2rem;
+}
+.footer-section {
+  background: #e2e8e9;
+  margin-top: -1rem;
 }
 </style>
