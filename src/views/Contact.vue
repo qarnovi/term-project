@@ -11,7 +11,7 @@
     <h3>Call me: <a href="tel:617-899-9765">617-899-9765</a></h3>
     <br />
     <section class="phone-section">
-      <form name="contact-me" action="" method="POST" @submit="submitMessange">
+      <form name="contact-me" action="" @submit="submitMessange">
         <fieldset>
           <legend>Please enter your message:</legend>
           <p>
@@ -31,6 +31,7 @@
             type="submit"
             name="submitButton"
             value="Submit"
+            :disabled="isDisabled"
           />
         </p>
       </form>
@@ -46,10 +47,15 @@ export default {
     };
   },
   methods: {
-      submitMessange() {
-
-      }
-  }
+    submitMessange() {
+      alert("Message submitted");
+    },
+  },
+  computed: {
+    isDisabled() {
+      return this.message == "";
+    },
+  },
 };
 </script>
 <style scoped>

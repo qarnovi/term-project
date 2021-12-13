@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/resume">Resume</router-link> |
     <router-link to="/hobbies">Hobbies</router-link> |
-    <router-link to="/contact">Contact Me</router-link>
+    <router-link to="/contact">Contact Me</router-link> |
+    <router-link to="/photo-gallery">Photo Gallery</router-link>
   </div>
   <router-view />
 </template>

@@ -22,6 +22,11 @@ const routes = [
     name: "Contact",
     component: () => import("../views/Contact.vue"),
   },
+  {
+    path: "/photo-gallery",
+    name: "PhotoGallery",
+    component: () => import("../views/PhotoGallery.vue"),
+  },
 ];
 
 const router = createRouter({
