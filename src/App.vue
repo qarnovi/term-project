@@ -47,6 +47,9 @@ header {
   background: #2f3061;
   color: #f7fff7;
 }
+p {
+  padding: 0.5rem;
+}
 h1,
 h2 {
   font-family: "Caveat", cursive;
