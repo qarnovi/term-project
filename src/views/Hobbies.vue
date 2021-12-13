@@ -41,6 +41,45 @@
         </td>
       </tr>
     </table>
+    <h3>Playing guitar</h3>
+    <table>
+      <tr>
+        <td>
+          <picture>
+            <img src="../assets/guitar.jpg" alt="guitar" />
+          </picture>
+        </td>
+        <td>
+          <figure>
+            <blockquote>
+              <p>
+                Learning a new art is always very exciting and satisfying as
+                well. So if you are a music buff and have always thought of
+                learning how to play a musical instrument, do it right away.
+                Learning an instrument like the guitar will require a little
+                patience but it will have its rewards in the long run. It can be
+                the perfect accompaniment if you are a singer, or it can bring
+                you one step closer to that rock-star fantasy that you`ve
+                nurtured since you were a child. It can be the perfect way to
+                calm you down when you`re in a bad mood. Composing your own
+                tunes can also give you a different high altogether. And then of
+                course, if you think you are a star, you can always make big
+                money with your new found guitar skills and entertain the whole
+                world.
+              </p>
+            </blockquote>
+            <figcaption>
+              From
+              <cite
+                ><a href="https://www.discoverahobby.com/guitar" target="_blank"
+                  >discoverahobby.com</a
+                ></cite
+              >
+            </figcaption>
+          </figure>
+        </td>
+      </tr>
+    </table>
   </section>
 </template>
 
