@@ -70,6 +70,7 @@ export default {
     };
   },
   methods: {
+    //sends the message to my email address via emailjs
     sendMessange() {
       emailjs.init("user_tYw5xIumUYe7TwuclFtuL");
       try {
