@@ -31,6 +31,11 @@ const routes = [
     name: "PhotoGallery",
     component: PhotoGallery,
   },
+  {
+    path: "/:pathMatch(.*)*",
+    component: Home,
+    name: "NotFound",
+  },
 ];
 
 const router = createRouter({
