@@ -44,6 +44,7 @@ export default {
   methods: {
     loadPhotos: async function () {
       this.imageURLs = [];
+      this.currentIndex = 0;
       await fetch(
         "https://api.pexels.com/v1/search?" +
           new URLSearchParams({
