@@ -18,7 +18,7 @@
             <textarea
               name="message"
               id="message"
-              cols="85"
+              cols="64"
               rows="15"
               v-model="message"
               placeholder="Enter your message here"
@@ -80,5 +80,6 @@ fieldset {
 .input-button {
   background: rgb(69, 136, 230);
   color: rgb(252, 250, 250);
+  font-size: large;
 }
 </style>
